@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dayz-bingo/static/css/main.d33c3325.css",
-    "main.js": "/dayz-bingo/static/js/main.905df948.js",
-    "static/js/453.16c059d0.chunk.js": "/dayz-bingo/static/js/453.16c059d0.chunk.js",
-    "index.html": "/dayz-bingo/index.html",
-    "main.d33c3325.css.map": "/dayz-bingo/static/css/main.d33c3325.css.map",
-    "main.905df948.js.map": "/dayz-bingo/static/js/main.905df948.js.map",
-    "453.16c059d0.chunk.js.map": "/dayz-bingo/static/js/453.16c059d0.chunk.js.map"
+    "main.css": "/static/css/main.d33c3325.css",
+    "main.js": "/static/js/main.807a1d83.js",
+    "static/js/453.16c059d0.chunk.js": "/static/js/453.16c059d0.chunk.js",
+    "index.html": "/index.html",
+    "main.d33c3325.css.map": "/static/css/main.d33c3325.css.map",
+    "main.807a1d83.js.map": "/static/js/main.807a1d83.js.map",
+    "453.16c059d0.chunk.js.map": "/static/js/453.16c059d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d33c3325.css",
-    "static/js/main.905df948.js"
+    "static/js/main.807a1d83.js"
   ]
 }
