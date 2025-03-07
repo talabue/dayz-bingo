@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dayz-bingo/static/css/main.ee4cd8a9.css",
+    "main.js": "/dayz-bingo/static/js/main.42655a5f.js",
+    "static/js/453.16c059d0.chunk.js": "/dayz-bingo/static/js/453.16c059d0.chunk.js",
+    "index.html": "/dayz-bingo/index.html",
+    "main.ee4cd8a9.css.map": "/dayz-bingo/static/css/main.ee4cd8a9.css.map",
+    "main.42655a5f.js.map": "/dayz-bingo/static/js/main.42655a5f.js.map",
+    "453.16c059d0.chunk.js.map": "/dayz-bingo/static/js/453.16c059d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee4cd8a9.css",
+    "static/js/main.42655a5f.js"
+  ]
+}
