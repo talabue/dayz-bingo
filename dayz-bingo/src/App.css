@@ -1,38 +1,77 @@
-.App {
+/* Bingo Counter in top left corner */
+.bingo-counter {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  z-index: 10000;
+}
+
+/* Bingo Card Grid */
+.bingo-card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  max-width: 500px;
+  margin: 80px auto 20px; /* Top margin adjusted to avoid overlapping the counter */
+}
+
+.bingo-row {
+  display: contents;
+}
+
+.bingo-cell {
+  border: 1px solid #ccc;
+  padding: 20px;
   text-align: center;
+  cursor: pointer;
+  user-select: none;
+  background-color: #f9f9f9;
+  transition: background-color 0.2s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bingo-cell.marked {
+  background-color: lightgreen;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Overlay for Bingo Message */
+.bingo-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  z-index: 9999;
 }
 
-.App-link {
-  color: #61dafb;
+/* Container for the popup content */
+.bingo-message-container {
+  background: #fff;
+  padding: 30px 50px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bingo-message {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.reset-button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.app-header {
+  text-align: center;
+  margin-top: 20px;
 }
